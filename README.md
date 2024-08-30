@@ -26,3 +26,11 @@ Performance basics are covered: assets are minified into single CSS and JS files
 $navyBlue: #14243c
 $seaBlue: #88c5ca
 $muted-gray: #282828`
+
+## Google apps scripts 
+`Deployment ID`
+
+`AKfycbzI_sjvX8MuJvFzvZQ4zIbrjLyUyha-goLBEq3b8gtHEUL_xfgaD2n-3Mwj8Zy06yqR`
+
+`Web app`
+`https://script.google.com/macros/s/AKfycbzI_sjvX8MuJvFzvZQ4zIbrjLyUyha-goLBEq3b8gtHEUL_xfgaD2n-3Mwj8Zy06yqR/exec`

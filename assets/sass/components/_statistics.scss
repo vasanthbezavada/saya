@@ -40,6 +40,30 @@
 				background-color: _palette(accent5);
 			}
 
+			&.stylebg1 {
+				background-color: _palette(bg1);
+			}
+
+			&.stylebg2 {
+				background-color: _palette(bg2);
+			}
+
+			&.stylebgs1 {
+				background-color: _palette(mixBgs1);
+			}
+
+			&.stylebgs2 {
+				background-color: _palette(mixBgs2);
+			}
+
+			&.stylebgs3 {
+				background-color: _palette(mixBgs3);
+			}
+
+			&.stylebgs4 {
+				background-color: _palette(mixBgs4);
+			}
+
 			strong, b {
 				display: block;
 				font-size: 2em;

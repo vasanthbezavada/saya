@@ -2363,6 +2363,24 @@ table.alt tbody tr td {
 .statistics li.style5 {
   background-color: #8cc9f0;
 }
+.statistics li.stylebg1 {
+  background-color: #14243c;
+}
+.statistics li.stylebg2 {
+  background-color: #88c5ca;
+}
+.statistics li.stylebgs1 {
+  background-color: #6695a0;
+}
+.statistics li.stylebgs2 {
+  background-color: #365466;
+}
+.statistics li.stylebgs3 {
+  background-color: #6695a0;
+}
+.statistics li.stylebgs4 {
+  background-color: #365466;
+}
 .statistics li strong, .statistics li b {
   display: block;
   font-size: 2em;

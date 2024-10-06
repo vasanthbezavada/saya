@@ -62,7 +62,12 @@
                                style="border: 2px solid #14243c;text-align: center;color: #14243c">Learn More</a></li>
                     </ul>
                 </div>
-                <span class="image"><img src="images/pic01.jpg" alt=""/></span>
+                <span class="image"><img style="opacity: 1; transition: opacity 1s ease;"
+                                         id="slideshow"
+                                         src="images/s1.webp"
+                                         loading="lazy"
+                                         alt="Interior designs"/>
+                </span>
             </div>
         </section>
 
@@ -209,6 +214,30 @@
 <script src="assets/js/breakpoints.min.js"></script>
 <script src="assets/js/util.js"></script>
 <script src="assets/js/main.js"></script>
+<script>
+    // Array of image for slideshow
+    const images = ["images/s1.webp", "images/s2.webp", "images/s3.webp", "images/s4.webp"]; // Add your image file names here
+    let currentIndex = 0;
 
+    function changeImage() {
+        const imageElement = document.getElementById('slideshow');
+
+        // Fade out the current image
+        imageElement.style.opacity = '0';
+
+        // Wait for the fade-out to complete (1 second) before changing the image
+        setTimeout(() => {
+            // Change the image source after fading out
+            currentIndex = (currentIndex + 1) % images.length;
+            imageElement.src = images[currentIndex];
+
+            // Fade in the new image
+            imageElement.style.opacity = '1';
+        }, 700);
+    }
+
+    // Change the image every 2 seconds (2000 milliseconds)
+    setInterval(changeImage, 3000);
+</script>
 </body>
 </html>
